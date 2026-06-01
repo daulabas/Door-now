@@ -70,7 +70,7 @@ fetch(url)
         stock_quantity.textContent = ( `${element[7]} | ${element[7] > 0 ? "В наличии" : "Отсутствует"}`);
         stock_quantity.className = "stock";
         if(element[7] > 0){
-             stock_quantity.style.color = "rgb(111, 255, 111)"; 
+             stock_quantity.style.color = "rgb(123, 246, 112)"; 
         }
         else
         {
